@@ -1,0 +1,48 @@
+###Git
+
+O que é git?
+
+    Um repositório Git é, de forma simples, uma pasta de um projeto que o Git está acompanhando. (google drive de código).
+
+O que ele faz?
+
+Controla o histórico de versões do código. (Versionamento de Código)
+
+O que é um repossitório? 
+        Um repositório Git é um projeto versionado pelo Git, contendo os arquivos atuais e o histórico das alterações realizadas nesses arquivos.
+
+o que é Branch?
+    Branch é uma ramificação do histórico do projeto que permite desenvolver alterações de forma isolada sem afetar imediatamente a linha principal (main/master).
+
+###Comandos
+
+--git pull
+        O git pull é o comando usado para buscar as alterações mais recentes de um repositório remoto e incorporá-las à sua branch local atual.
+
+--git commit
+        O comando git commit serve para registrar uma versão das alterações do seu projeto no histórico do Git.
+
+--git push 
+        O git push é o comando usado para enviar os commits do seu repositório local para um repositório remoto, como GitHub, GitLab ou Bitbucket.
+
+--git marge
+        O git merge é o comando usado para juntar as alterações de uma branch em outra branch.
+
+EXEMPLO: 
+
+1 - Durante o desenviolvimento
+
+main (master) "Código que esta em produção"
+  |
+   --- commit inicail com a função y
+  |---- branche A (Thiago)
+                |---- commit - Criar a função X
+  |---- branch B (Gui)
+                |---- commit - corrigir função y existente
+
+2 - Estado após o merge
+
+main (master) "Código que esta em produção"
+    ---- commit1 - inicail com a função y
+    ---- commit2 - Criar a função X
+    ---- commit3 - corrigir função y existente
