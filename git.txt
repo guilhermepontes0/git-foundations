@@ -46,3 +46,5 @@ main (master) "Código que esta em produção"
     ---- commit1 - inicail com a função y
     ---- commit2 - Criar a função X
     ---- commit3 - corrigir função y existente
+
+Agora eu sei usar o git :)
